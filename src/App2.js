@@ -1,13 +1,11 @@
 import React, { Component } from "react";
 
-import "./App.css";
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { faTrashAlt } from "@fortawesome/free-solid-svg-icons";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
+import { faClock } from "@fortawesome/free-solid-svg-icons";
 
-class App extends Component {
+class App2 extends Component {
   constructor(props){
     super(props);
 
@@ -58,11 +56,11 @@ class App extends Component {
     return (
       <div className="App">
 <div>
-  <FontAwesomeIcon icon={faStar} className="fas" /> Super important 
+  <FontAwesomeIcon icon={faClock} className="fas" /> Still important
   <br />
   <input
   type="text"
-  placeholder="Get it done..."
+  placeholder="Do it later..."
   value={this.state.newItem}
   onChange={e => this.updateInput("newItem", e.target.value)}
   />
@@ -86,6 +84,6 @@ class App extends Component {
       </div>
     );
   }
-} 
+}
 
-export default App;
+export default App2;
