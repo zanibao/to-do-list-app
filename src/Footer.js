@@ -10,7 +10,7 @@ export default function Footer() {
         <br />
     <small>
       <a
-        href="/"
+        href="https://github.com/zanibao/to-do-list-app"
         target="_blank"
         rel="noopener noreferrer"
       >
